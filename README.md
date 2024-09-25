@@ -1,7 +1,5 @@
 # Constructors-and-Destructors
 
-# Constructors and Destructors 
-
 ## Aim
 
 To study and implement constructors and destructors in C++.
