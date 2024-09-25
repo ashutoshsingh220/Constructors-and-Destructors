@@ -46,7 +46,7 @@ public:
 ```
 
 # Algorithms:
-### Constructor inside class
+### Constructor 
 1) Start
 
 2) Define Class `date`:   
