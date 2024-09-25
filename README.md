@@ -6,16 +6,16 @@ To study and implement constructors and destructors in C++.
 
 ## Theory
 
-**Constructors** and **destructors** are special member functions of a class in C++ that are used to initialize and clean up objects, respectively.
+**Constructors** and **destructors** are special member functions of a class in C++ that are used to initialize and clean up objects. A constructor is invoked automatically when an object of the class is created, allowing for the initialization of member variables and the allocation of resources, ensuring that the object starts in a valid state. In contrast, a destructor is called when an object is destroyed, allowing for the proper release of resources and cleanup operations, such as deallocating memory or closing file handles, thereby preventing resource leaks and ensuring efficient memory management. Together, these functions facilitate robust and safe object lifecycle management, supporting encapsulation and resource management principles in OOP.
 
 ### Constructors
 
 - **Definition**: A constructor is a special member function that is automatically called when an object of the class is created. It has the same name as the class and does not have a return type.
 - **Purpose**: To initialize the object's data members.
 - **Types**:
-  - **Default Constructor**: Takes no arguments.
-  - **Parameterized Constructor**: Takes one or more arguments.
-  - **Copy Constructor**: Initializes an object using another object of the same class.
+  - **Default Constructor**: No parameters, initializes members with default values.
+  - **Parameterized Constructor**: Takes parameters to set initial values for data members.
+  - **Copy Constructor**: Creates a new object as a copy of an existing object.
   - **Move Constructor**: Transfers resources from a temporary object to a new object (introduced in C++11).
 
 **Syntax**:
